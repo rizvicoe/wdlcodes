@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form method="GET" action="index.html" enctype="multipart/form-data">
+        <p>
+            <label for="full-name">Full Name</label>
+            <input id="full-name" 
+                name="full_name" 
+                type="text" 
+                placeholder="Enter Surname first" 
+                minlength="10"
+                value="Arun">
+            
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input id="email" name="email" tabindex="3" autocomplete="none" accesskey="u" type="email" value="shibu@test.com" placeholder="Enter your email" value="">
+            
+        </p>
+        <p>
+            <label for="cv">Upload your Resume</label>
+            <input id="cv" name="cv"  type="file" accept="image/*" multiple >
+            
+        </p>
+        <input type="hidden" name="product_id" value="56">
+        <p>
+            <label for="email">Password</label>
+            <input id="email" name="password" tabindex="2" type="password" placeholder="Enter your password" value="">
+            
+        </p>
+        <p>
+            <label for="exp">Experience</label>
+            <input id="exp" name="exp" type="range" min="0" max="100" step="10"  value="10">
+            
+        </p>
+        <p>
+            <label for="age">Age</label>
+            <input id="age" name="age" type="number" tabindex="4" placeholder="Enter your Age" value="">
+            
+        </p>
+        <p>
+            <label for="dob">Date of Birth</label>
+            <input id="dob" name="dob" type="date" placeholder="Enter your Age" value="">
+            
+        </p>
+        <p>
+            <label for="created-at">Created At</label>
+            <input id="created-at" name="created_at" type="datetime-local" placeholder="Enter your Age" value="">
+            
+        </p>
+        <p>
+            <label for="created-at">Created At</label>
+            <input id="created-at" name="created_at" type="color" placeholder="Enter your Age" value="">
+            
+        </p>
+        <p>
+            <fieldset>
+                <legend>Select your Skills</legend>
+                <input id="skill-java" name="skill_java" type="checkbox" value="Java">
+                <label for="skill-java">Java</label><br>
+                
+                <input id="skill-c" name="skill_c" checked type="checkbox" value="C">
+                <label for="skill-c">C</label><br>
+                <input id="skill-php" name="skill_php" type="checkbox" value="PHP">
+                <label for="skill-php">PHP</label>
+                
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+                <input id="male" name="gender" type="radio" value="Male">
+                <label for="male">Male</label><br>
+                
+                <input id="female" name="gender" type="radio" value="Female">
+                <label for="female">Female</label>
+                
+            </fieldset>
+        </p>
+        <p>
+            <label for="bio">Biodata</label><br>
+            <textarea name="" id="bio" cols="10" rows="5"></textarea>
+            
+
+        </p>
+        <p>
+            <label for="city">Select your City</label>
+            <select name="city" id="city" >
+                <option value="">Select city</option>
+                <optgroup label="Maharashtra">
+                    <option value="mumbai" selected>Mumabi</option>
+                    <option value="delhi">Vasai</option>
+                </optgroup>
+                <optgroup label="Delhi">
+                    <option value="banglore">Bangalore</option>
+                    <option value="chennai">Chennai</option>
+                </optgroup>
+                
+
+            </select>
+        </p>
+
+        <p>
+            
+            <input type="submit">
+            <button type="submit">Lets Submit the Form</button>
+            
+        </p>
+
+    </form>
+
+    
+</body>
+</html>

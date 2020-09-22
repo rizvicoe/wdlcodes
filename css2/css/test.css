@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+div {
+    padding: 20px;
+    background-color: yellowgreen;
+    border: 10px solid red;
+    margin: 5px;
+}
+
