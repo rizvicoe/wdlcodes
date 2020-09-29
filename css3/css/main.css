@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#p1 {
+
+    background: linear-gradient(to bottom, rgb(255, 63, 63), rgb(149, 0, 0));
+}
+#p2 {
+    background: linear-gradient(to bottom, rgb(124, 255, 63), rgb(30, 149, 0));
+}
+#p3 {
+    background: linear-gradient(to bottom, rgb(63, 98, 255), rgb(10, 0, 149));
+}
+
+.ptags {
+    width: 200px;
+    float: left;
+    padding: 10px;
+    margin: 30px;
+    color: aliceblue;
+}
+
+.container {
+    position: absolute;
+    top : 20px;
+    left: 50px;
+}
+
+
+
+body {
+    background: rgb(36, 36, 36);
+}
+
+button {
+    margin: 100px;
+    border-radius: 30px;
+    padding: 10px 50px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: none;
+    transition: 500ms;
+    box-shadow: 2px 2px 4px 0px rgba(24, 24, 24, 0.8), -2px -2px 4px 0px rgba(114, 114, 114, 0.8);
+}
+
+button:hover {
+    color: greenyellow;
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 4px 0px rgba(13, 109, 0, 0.8), -2px -2px 4px 0px rgba(68, 251, 92, 0.8);
+}
+

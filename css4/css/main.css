@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: rgb(255, 137, 137);
+}
+
+.box2 {
+    background-color: rgb(164, 255, 137);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.box3 {
+    background-color: rgb(145, 137, 255);
+    
+}
+
+.wrapper {
+    background-color: rgba(175, 0, 0, 1);
+    height: 200vh;
+    margin-top: 100px;
+    padding-left: 7%;
+    position: relative;
+}
+
+.wrapper div {
+    width: 30%;
+    
+    float: left;
+}
+
+.box5 img {
+    width: 50px;
+    float: left;
+    margin: 10px;
+}
+
+.bordered {
+    border: 1px solid gray;
+}
+
+.redbg {
+    background-color: red;
+    color: white;
+}
