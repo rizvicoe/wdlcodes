@@ -1,0 +1,28 @@
+* {
+   margin: 0px;
+   box-sizing: border-box;
+   padding: 0px;
+}
+
+.top,.mid,.foot {
+    height: 400px;
+}
+.top {
+    background: #FFF2E6;
+}
+.bt-bg {
+    background: url("../images/light_bg.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 8vw;
+}
+
+.mid-bg {
+    background: url("../images/dark_bg.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 8vw;
+}
+.foot {
+    background: #3C4735;
+}
