@@ -1,0 +1,93 @@
+* {
+   margin: 0px;
+   box-sizing: border-box;
+   padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.todo-form {
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 60vw;
+}
+
+.todo-form label {
+    display: block;
+    font-size: 2rem;
+
+}
+
+.todo-form input {
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.todo-form button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+
+.todo {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 60vw;
+    color: rgb(32, 32, 32);
+}
+
+.todo table {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-spacing: 0px;
+}
+
+.todo th,.todo td {
+    padding: 10px;
+}
+
+.todo thead tr th{
+    border-bottom: 3px solid gray;
+}
+
+.todo thead tr th:nth-child(2){
+    text-align: left;
+}
+
+.todo td:first-child,.todo td:last-child{
+    text-align: center;
+}
+
+.todo tbody tr:nth-child(odd){
+    background-color: rgb(218, 218, 218);
+}
+
+
+.todo tbody tr.complete{
+    background-color: rgb(205, 255, 208);
+    text-decoration: line-through;
+}
