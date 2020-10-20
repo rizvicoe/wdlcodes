@@ -13,8 +13,6 @@ pears.innerHTML = "Pears";
 fruits.appendChild(pears);*/
 
 
-let ele1 = document.querySelectorAll("#fruits li");
-
-for(let ele of ele1){
-    ele.innerHTML += " is a fruit";
-}
+document.body.addEventListener('click',function(e){
+    console.log(e.target.nodeName);
+});

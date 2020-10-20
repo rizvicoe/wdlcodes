@@ -9,13 +9,13 @@
 <body>
     <div class="todo-form">
         <form action="">
-            <input type="text" id="add-todo" placeholder="Add new todo" name="todo_title">
-            <button type="submit">Add</button>
+            <input type="text" id="add-todo" class="add-todo" value="" placeholder="Add new todo" name="todo_title">
+            <button type="submit" id="add-btn">Add</button>
         </form>
     </div>
     <div class="todo">
         <h1>My Todos</h1>
-        <small>10 Todo's Total, 3 Complete &amp; 7 Pending</small>
+        <small id="todo-summary">10 Todo's Total, 3 Complete &amp; 7 Pending</small>
         <table>
             <thead>
                 <tr>
@@ -26,24 +26,29 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><input type="checkbox" name="" id=""></td>
+                    <td><input type="checkbox" class="todo-check" name="" id=""></td>
                     <td>Take Lecture</td>
                     <td>Pending</td>
                 </tr>
                 <tr class="complete">
-                    <td><input type="checkbox" checked name="" id=""></td>
+                    <td><input type="checkbox" class="todo-check"  checked name="" id=""></td>
                     <td>Eat Food</td>
                     <td>Complete</td>
                 </tr>
                 <tr>
-                    <td><input type="checkbox" name="" id=""></td>
+                    <td><input type="checkbox" class="todo-check"  name="" id=""></td>
                     <td>Do Programming</td>
                     <td>Pending</td>
                 </tr>
-                <tr class="complete">
-                    <td><input type="checkbox" checked name="" id=""></td>
+                <tr>
+                    <td><input type="checkbox" class="todo-check"  name="" id=""></td>
                     <td>Learn something</td>
-                    <td>Complete</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="todo-check"  name="" id=""></td>
+                    <td>Learn something</td>
+                    <td>Pending</td>
                 </tr>
             </tbody>
         </table>

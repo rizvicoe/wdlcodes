@@ -8,42 +8,13 @@
 </head>
 <body>
     <div class="products">
-        <div class="pcard">
+        <!-- <div class="pcard">
             <img src="https://via.placeholder.com/100" alt="">
             <h2>Apples</h2>
             <h3>Rs. 200</h3>
             <p>Quantity : 1 Kg</p>
             <button>+ Add to Cart</button>
-        </div>
-        <div class="pcard">
-            <img src="https://via.placeholder.com/100" alt="">
-            <h2>Apples</h2>
-            <h3>Rs. 200</h3>
-            <p>Quantity : 1 Kg</p>
-            <button>+ Add to Cart</button>
-        </div>
-        <div class="pcard">
-            <img src="https://via.placeholder.com/100" alt="">
-            <h2>Apples</h2>
-            <h3>Rs. 200</h3>
-            <p>Quantity : 1 Kg</p>
-            <button>+ Add to Cart</button>
-        </div>
-        <div class="pcard">
-            <img src="https://via.placeholder.com/100" alt="">
-            <h2>Apples</h2>
-            <h3>Rs. 200</h3>
-            <p>Quantity : 1 Kg</p>
-            <button>+ Add to Cart</button>
-        </div>
-        <div class="pcard">
-            <img src="https://via.placeholder.com/100" alt="">
-            <h2>Apples</h2>
-            <h3>Rs. 200</h3>
-            <p>Quantity : 1 Kg</p>
-            <button>+ Add to Cart</button>
-        </div>
-        
+        </div> -->
     </div>
     <div class="cart">
         <h1>Cart</h1>
@@ -82,26 +53,26 @@
         </table>
         
         <div class="total">
-            <form action="">
+            <form action="" id="discount-form">
                 <label for="">Discount Coupon : </label>
-                <input type="text">
+                <input type="text" name="discount">
             </form>
             <div>
-                <span>Discounted Amount : </span>
-                <span>233.00</span>
+                <span>Discount : </span>
+                <span id="discount">233.00</span>
             </div>
             <div>
                 <span>Tax : </span>
-                <span>33.00</span>
+                <span id="tax">33.00</span>
             </div>
             <div>
                 <span>Grand Total : </span>
-                <span>633.00</span>
+                <span id="grand-total">633.00</span>
             </div>
         </div>
     </div>
 
 
-    <script src="./js/project1.js"></script>
+    <script src="./js/project2.js" type="module"></script>
 </body>
 </html>
